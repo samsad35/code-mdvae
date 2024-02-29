@@ -1,0 +1,7 @@
+# @package _group_
+root: 'D:\These\data\Audio-Visual\moving-MNIST\mnist_test_seq.npy'
+
+spec_parameters:
+  n_fft: 1024
+  win_length: 64e-3
+  hop: 0.625

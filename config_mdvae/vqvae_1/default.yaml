@@ -1,0 +1,8 @@
+# @package _group_
+num_hiddens: 32
+num_residual_hiddens: 16
+num_residual_layers: 1
+embedding_dim: 8
+num_embeddings: 64
+commitment_cost: 0.25
+decay: 0.99

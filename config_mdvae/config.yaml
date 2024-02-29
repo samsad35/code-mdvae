@@ -1,0 +1,32 @@
+defaults:
+  - dataset: default
+  - model: default
+  - vqvae_1: default
+  - vqvae_2: default
+
+training_config:
+  fp16_run: true
+  save: "checkpoint"
+  total_epoch: 1000
+  learning_rate: 0.00002
+  batch_size: 1024
+  seq_length: 30
+  device: "cuda"
+  scheduler: [false, 50, 0.9]
+  early_stop: false
+  warm_up: 5
+  beta: 1
+  num_workers: 0
+
+audio_config:
+  win_length: 64e-3
+  hop_percent: 0.5208333333
+  sampling_rate: 16000
+
+
+visual_config:
+    grayscale: false
+    face_detection: false
+    resize: (64, 64)
+    normalization: false
+    display: [false, "image"]

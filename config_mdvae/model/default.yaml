@@ -1,0 +1,9 @@
+# @package _group_
+name: "mdvae"
+dim_x_audio: 512
+dim_x_visual: [1, 512]
+dim_zss: 84
+dim_zds: 16
+dim_z_audio: 8
+dim_z_visual: 4
+device: "cuda"
