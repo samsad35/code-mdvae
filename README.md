@@ -6,9 +6,7 @@
 
 [comment]: <> ([![PyPI version fury.io]&#40;https://badge.fury.io/py/ansicolortags.svg&#41;]&#40;https://test.pypi.org/project/&#41;)
 
-<video controls width="600"  loop autoplay muted>
-  <source src="images/swap_w_visual_all.mp4" type="video/mp4">
-</video>
+![MDVAE](images/swap_w_visual_all.gif)
 
 This repository contains the code associated with the following publication:
 > **A multimodal dynamical variational autoencoder for audiovisual speech representation learning**<br> Sadok, Samir and Leglaive, Simon and Girin, Laurent and Alameda-Pineda, Xavier and Séguier, Renaud<br>Neural Networks 2024.
