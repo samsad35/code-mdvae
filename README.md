@@ -58,7 +58,7 @@ visual_vqvae.load(path_model=r"checkpoints/VQVAE/visual/model_checkpoint_Y2022M2
 from mdvae import VQMDVAE
 model = VQMDVAE(config_model=cfg.model, vqvae_speech=speech_vqvae, vqvae_visual=visual_vqvae)
 ```
-You can load a pre-trained model in [checkpoints/MDVAE](checkpoints/MDVAE).
+You can load a pre-trained model in [checkpoints/MDVAE](https://huggingface.co/samir-sadok/MDVAE).
 ```python
 model.load_model(path_model=f"{path}/mdvae_model_checkpoint")
 model.to("cuda")
